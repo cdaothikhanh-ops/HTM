@@ -2,7 +2,7 @@
 
 Dự án thiết kế và triển khai hạ tầng mạng trên **GNS3** phối hợp **Windows Server 2022** cho trung tâm đào tạo CNTT gồm **4 phòng Lab** và **1 khu văn phòng**.
 
-## 🛠️ Công Nghệ Triển Khai
+## Công Nghệ Triển Khai
 * **VLAN (802.1Q):** Phân chia logic mạng giữa các phòng Lab và khối văn phòng.
 * **Inter-VLAN Routing:** Định tuyến trực tiếp trên Core Switch Layer 3.
 * **DHCP Relay Agent:** Sử dụng `ip helper-address` chuyển tiếp yêu cầu cấp IP động từ máy trạm về Windows Server.
@@ -10,7 +10,7 @@ Dự án thiết kế và triển khai hạ tầng mạng trên **GNS3** phối 
 
 ---
 
-## 🗺️ Quy Hoạch Địa Chỉ IP
+## Quy Hoạch Địa Chỉ IP
 
 | Khu vực | VLAN | Network Address | Subnet Mask | Default Gateway |
 | :--- | :---: | :--- | :--- | :--- |
@@ -21,11 +21,11 @@ Dự án thiết kế và triển khai hạ tầng mạng trên **GNS3** phối 
 | **Văn phòng** | 50 | `192.168.20.0` | `255.255.255.0` (/24) | `192.168.20.1` |
 | **IT/Server** | 99 | `192.168.99.0` | `255.255.255.0` (/24) | `192.168.99.1` |
 
-> 📌 **Windows Server 2022 IP:** `192.168.99.10` / Subnet Mask: `255.255.255.0`
+> **Windows Server 2022 IP:** `192.168.99.10` / Subnet Mask: `255.255.255.0`
 
 ---
 
-## 💻 Cấu Hình Core Switch (Cisco CLI)
+## Cấu Hình Core Switch (Cisco CLI)
 
 ### Định tuyến Inter-VLAN & DHCP Relay Agent
 ```ios
