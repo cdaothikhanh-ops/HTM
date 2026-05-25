@@ -1,4 +1,4 @@
-Link video demo: https://drive.google.com/file/d/1BCSaWPSdRAOocF5EoQ_siUlqj2StmnvI/view?usp=sharing
+Link video demo: https://drive.google.com/file/d/1Bk2ob0QyZjJvdEDvdY0TO_-qSGCRaHY4/view?usp=sharing
 # EDU-NET – Hệ Thống Mạng Trung Tâm Đào Tạo CNTT Tập Trung
 
 Dự án thiết kế và triển khai hạ tầng mạng trên **GNS3** phối hợp **Windows Server 2022** cho trung tâm đào tạo CNTT gồm **4 phòng Lab** và **1 khu văn phòng**.
